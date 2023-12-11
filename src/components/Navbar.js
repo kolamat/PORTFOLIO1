@@ -16,21 +16,11 @@ const Navbar = () => {
       <div className="fixed flex top-0 left-0 bg-slate-900 justify-between items-center h-24 text-white mx-auto px-9 w-full">
         <h1 className="w-full text-4xl font-bold text-[#00df9a]">Portfolio</h1>
         <nav className="hidden md:flex font-bold text-xl">
-          <LINK to="/">
-            <li className="p-4">Home</li>
-          </LINK>
-          <LINK to="/About">
-            <li className="p-4">About</li>
-          </LINK>
-          <LINK to="/Services">
-            <li className="p-4">Services</li>
-          </LINK>
-          <LINK to="/Portfolio">
-            <li className="p-4">Portfolio</li>
-          </LINK>
-          <LINK to="/Contact">
-            <li className="p-4">Contact</li>
-          </LINK>
+          <li className="p-4">Home</li>
+          <li className="p-4">About</li>
+          <li className="p-4">Services</li>
+          <li className="p-4">Portfolio</li>
+          <li className="p-4">Contact</li>
         </nav>
         <div onClick={handleNav} className="block md:hidden cursor-pointer">
           {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
