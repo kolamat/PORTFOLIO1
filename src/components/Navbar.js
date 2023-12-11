@@ -35,21 +35,11 @@ const Navbar = () => {
           </h1>
 
           <ul className="pt-4 uppercase font-bold">
-            <LINK to="/">
-              <li className="p-4 border-b border-gray-600">Home</li>
-            </LINK>
-            <LINK to="/About">
-              <li className="p-4 border-b border-gray-600">About</li>
-            </LINK>
-            <LINK to="/Services">
-              <li className="p-4 border-b border-gray-600">Services</li>
-            </LINK>
-            <LINK to="/Portfolio">
-              <li className="p-4 border-b border-gray-600">Portfolio</li>
-            </LINK>
-            <LINK to="/Contact">
-              <li className="p-4">Contact</li>
-            </LINK>
+            <li className="p-4 border-b border-gray-600">Home</li>
+            <li className="p-4 border-b border-gray-600">About</li>
+            <li className="p-4 border-b border-gray-600">Services</li>
+            <li className="p-4 border-b border-gray-600">Portfolio</li>
+            <li className="p-4">Contact</li>
           </ul>
         </div>
       </div>
