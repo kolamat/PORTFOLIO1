@@ -41,7 +41,7 @@ function Contact() {
               cols="30"
               rows="10"
               placeholder="Your Message"
-              className="bg-gray-600 w-60 text-white rounded-xl m-auto"
+              className="bg-gray-600 w-80 text-white rounded-xl"
             ></textarea>
           </form>
           <input
