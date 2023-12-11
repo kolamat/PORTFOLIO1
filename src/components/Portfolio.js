@@ -9,9 +9,6 @@ import twoIphones from "../assets/two-iphones.PNG";
 function Portfolio() {
   return (
     <div>
-        $('.fade-on-scroll').animateOnScroll({
-  scale3d: false
-
       <h2 className="text-white text-[4rem] text-center font-bold py-1">
         Latests <span className="text-[#0ef]">Project</span>
       </h2>
@@ -47,7 +44,6 @@ function Portfolio() {
           alt="Kolade"
         />
       </div>
-      });
     </div>
   );
 }
