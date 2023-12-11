@@ -17,10 +17,10 @@ const hero = () => {
             Matanmi Kolade
           </h1>
           <h3 className=" text-[25px] font-bold">
-            And I'm a{" "}
+            And I'm a
             <span className=" text-[#0ef]">
               <Typed
-                strings={["Frontend-Engineeer", "Blogger", "Gamer"]}
+                strings={["Frontend-Engineer", "Blogger", "Gamer"]}
                 startDelay={2000}
                 typeSpeed={130}
                 backSpeed={150}
