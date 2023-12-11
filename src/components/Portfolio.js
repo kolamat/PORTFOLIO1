@@ -1,5 +1,4 @@
 import React from "react";
-import .animateOnScroll from "animate-on-scroll"
 import laptopCard from "../assets/laptop-card.PNG";
 import makeUp from "../assets/Makeup.PNG";
 import mokLogo from "../assets/mok-logo.PNG";
