@@ -7,7 +7,7 @@ function about() {
     <div className="mx-auto grid md:grid-cols-2 text-white py-16 px-4">
       <div>
         <img
-          className="w-[500px] ml-8 mr-20 my-4 rounded-2xl"
+          className="w-[500px] mx-auto my-4 rounded-2xl"
           src={kolade1}
           alt="still Kolade"
         />
